@@ -26,8 +26,6 @@ with st.form(key="recommender"):
     submitted = st.form_submit_button()
 
 ""
-""
-""
 
 if submitted:
     with st.spinner("🤓 Crunching numbers..."):
@@ -43,7 +41,6 @@ if submitted:
         "☘️ The algorithm recommends this app to you: [Traingenerator](https://traingenerator.jrieke.com/)"
     )
 
-    ""
     st.info(
         "💡 With `st.form`, this app (and our complex algorithm!) only reruns when you hit the submit button, not at each widget interaction. [Check out the blog post to learn how it works!]()"
     )
