@@ -39,7 +39,9 @@ if submitted:
     #     "🥠 You will create a very popular Streamlit app",
     # ]
     # block_methods = [st.error, st.warning, st.info, st.success]
-    st.success("☘️ The algorithm recommends this app to you: Traingenerator")
+    st.success(
+        "☘️ The algorithm recommends this app to you: [Traingenerator](https://traingenerator.jrieke.com/)"
+    )
 
     ""
     st.info(
