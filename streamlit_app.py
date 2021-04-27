@@ -38,7 +38,7 @@ if submitted:
     # ]
     # block_methods = [st.error, st.warning, st.info, st.success]
     st.success(
-        "☘️ The algorithm recommends this app to you: [Traingenerator](https://traingenerator.jrieke.com/)"
+        "☘️ The algorithm recommends this app to you: [Traingenerator](https://traingenerator.jrieke.com/) (find more cool apps in [our gallery](https://streamlit.io/gallery)!)"
     )
 
     st.info(
